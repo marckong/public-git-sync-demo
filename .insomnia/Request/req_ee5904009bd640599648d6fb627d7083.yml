@@ -1,10 +1,10 @@
 _id: req_ee5904009bd640599648d6fb627d7083
 type: Request
 parentId: fld_5df6543b5f15495d93e8163c7e3c91af
-modified: 1736357300089
+modified: 1736357884929
 created: 1736357300089
 url: "{{ _.base_url }}/delete_grocery"
-name: Delete a grocery from the list
+name: Delete a grocery from the list 2
 description: Delete a grocery from the list
 method: DELETE
 body:
