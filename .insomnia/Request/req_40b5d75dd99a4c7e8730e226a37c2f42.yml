@@ -1,0 +1,32 @@
+_id: req_40b5d75dd99a4c7e8730e226a37c2f42
+type: Request
+parentId: fld_5df6543b5f15495d93e8163c7e3c91af
+modified: 1736357300087
+created: 1736357300087
+url: "{{ _.base_url }}/add_grocery"
+name: Add a grocery to the list
+description: Add a grocery to the list
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "grocery": "string"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    disabled: false
+    value: application/json
+authentication: {}
+preRequestScript: null
+metaSortKey: -1736357300087
+isPrivate: false
+pathParameters: null
+afterResponseScript: null
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
